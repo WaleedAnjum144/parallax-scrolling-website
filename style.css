@@ -39,6 +39,7 @@ header{
     margin: 0 10px;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 .navigation a:hover{
     background-color: #359381;
@@ -73,6 +74,10 @@ header{
     width: 100%;
     pointer-events: none;
 }
+#text, #leaf, #hill5, #hill4, #hill1 {
+    transition: margin-top 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+  
 
 
 .content{
